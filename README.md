@@ -1,4 +1,4 @@
-# How to use this Docker Guides template
+## How to use this Docker Guides template
 
 1. Select **Use this template** and choose **Create a new repository**.
 
@@ -10,7 +10,9 @@
 
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
-# Project Title
+## Sample README Content:
+
+## Project Title
 
 This repo contains the sample application for developing applications and the Docker guide on Docker Docs. While this project is written primarily in Node/Rust/Java, the focus is on launching and using tool in development and the tool-related pieces can easily be adapted into any other language.
 
