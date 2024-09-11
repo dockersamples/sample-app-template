@@ -1,2 +1,2 @@
-# A Sample Project Templates for Docker Guides
+# A Sample Templates for Docker Guides
 
