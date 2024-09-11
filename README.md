@@ -8,7 +8,7 @@
 
 <img width="725" alt="image" src="https://github.com/user-attachments/assets/8fbc6a38-f6ab-4442-b0ad-51ad01794016">
 
-3. Select "Create repository". Don't forget to populate "About" section with a short description of the project once you create the repository.
+3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
 # Project Title
 
