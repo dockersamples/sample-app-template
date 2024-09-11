@@ -1,7 +1,11 @@
 # Project Title
 
+This repo contains the sample application for developing applications and the Docker guide on Docker Docs. While this project is written primarily in Node/Rust/Java, the focus is on launching and using tool in development and the tool-related pieces can easily be adapted into any other language.
+
+Notice: This sample repo is intended to support the guide mentioned above. As such, the application code is purposely kept simple to keep the focus on the guide's content and should not be considered production ready.
+
 ## Project structure
-[Describe the purpose of the repo]
+[Describe the directory structure of the project repository]
 
 - frontend/
 - backend/
