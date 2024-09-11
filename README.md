@@ -1,2 +1,2 @@
-# project-template
-A Sample repository template for a new project
+# A Sample Project Templates for Docker Guides
+
