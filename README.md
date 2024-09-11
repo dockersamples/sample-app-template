@@ -1,7 +1,6 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=dockersamples.docker-guides-template)
 ![License](https://img.shields.io/github/license/dockersamples/docker-guides-template)
 ![GitHub issues](https://img.shields.io/github/issues/dockersamples/docker-guides-template)
-![GitHub forks](https://img.shields.io/github/forks/dockersamples/docker-guides-template?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dockersamples/docker-guides-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/dockersamples/docker-guides-template)
 ![GitHub repo size](https://img.shields.io/github/repo-size/dockersamples/docker-guides-template)
