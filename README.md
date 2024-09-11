@@ -1,4 +1,4 @@
-# How to use this template
+# How to use this Docker Guides template
 
 1. Select **Use this template** and choose **Create a new repository**.
 
