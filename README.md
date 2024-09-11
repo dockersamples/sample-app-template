@@ -45,7 +45,7 @@ npm start
 
 
 ## Backlinks
-For more information, check the related [blog post](link) or [use case guide](link).
+For more information, check the related [blog post](link) or [use case guide](https://docs.docker.com/guides/use-case/kafka/).
 
 ## Maintenance Schedule
 This repo is maintained [frequency]. For any security updates, note that there may be delays in applying recent fixes.
