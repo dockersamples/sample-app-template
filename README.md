@@ -1,5 +1,7 @@
 ## How to use this Docker Guides template
 
+👉 Quickly get started with this template to develop sample applications and follow the Docker guide on Docker Docs. Here's how:
+
 1. Select **Use this template** and choose **Create a new repository**.
 
 <img width="1144" alt="image" src="https://github.com/user-attachments/assets/d27634f1-1f7e-4e77-bc60-25122467e805">
