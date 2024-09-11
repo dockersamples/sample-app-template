@@ -1,3 +1,14 @@
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=dockersamples.docker-guides-template)
+![License](https://img.shields.io/github/license/dockersamples/docker-guides-template)
+![GitHub issues](https://img.shields.io/github/issues/dockersamples/docker-guides-template)
+![GitHub forks](https://img.shields.io/github/forks/dockersamples/docker-guides-template?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/dockersamples/docker-guides-template)
+![GitHub contributors](https://img.shields.io/github/contributors/dockersamples/docker-guides-template)
+![GitHub repo size](https://img.shields.io/github/repo-size/dockersamples/docker-guides-template)
+![GitHub top language](https://img.shields.io/github/languages/top/dockersamples/docker-guides-template)
+![Platform](https://img.shields.io/badge/platform-Docker-blue)
+![GitHub All Releases](https://img.shields.io/github/downloads/dockersamples/docker-guides-template/total)
+
 ## 🎯 How to Use This Docker Guides Template
 
 👉 Quickly get started with this template to develop sample applications and follow the Docker guide on Docker Docs. Here's how:
