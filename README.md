@@ -12,7 +12,7 @@ This document outlines the requirements for code repositories in the `dockersamp
 
 >  [!TIP]
 >
-> Please remove this "How to Use This Docker Guides Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+> Please remove this "Samples Repo Templates for Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
 
 
 
