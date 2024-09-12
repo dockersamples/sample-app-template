@@ -6,9 +6,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/dockersamples/docker-guides-template)
 
 
-## 🎯 How to Use This Docker Guides Template
+## 🎯 Samples Repo Templates for Docker Guides 
 
-👉 Quickly get started with this template to develop sample applications and follow the Docker guide on Docker Docs. Here's how:
+This document outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides, blog posts, or other educational content. If you have any questions, please contact #docs on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
+
 
 1. Select **Use this template** and choose **Create a new repository**.
 
