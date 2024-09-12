@@ -28,7 +28,8 @@
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
 🚨 Important: Remove this section after cloning
-Please remove this "How to Use This Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+
+Please remove this "How to Use This Docker Guides Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
 
 ## Sample README Content:
 
