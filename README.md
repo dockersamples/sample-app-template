@@ -2,7 +2,7 @@
 
 
 
-## 🎯 Samples Repo Templates for Docker Guides 
+## 🎯 A Template for Docker Guides' Samples Apps
 
 This page outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides, blog posts, or other educational content. If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
 
