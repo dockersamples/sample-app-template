@@ -1,3 +1,7 @@
+# Please note that this is just a sample Dockerfile for a typical backend application.
+# Feel free to modify it as per your sample app
+
+
 # Use Node.js 18 as the base image
 FROM node:22
 
