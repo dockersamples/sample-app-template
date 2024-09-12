@@ -34,7 +34,7 @@ This document outlines the requirements for code repositories in the `dockersamp
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
 
-## Sample README Content:
+## Sample README Content
 
 The README.md describes the purpose of the repository, setup instructions, and related resources. 
 
