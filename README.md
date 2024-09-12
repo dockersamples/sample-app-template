@@ -1,5 +1,4 @@
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=dockersamples.docker-guides-template)
-![License](https://img.shields.io/github/license/dockersamples/docker-guides-template)
+
 
 
 
