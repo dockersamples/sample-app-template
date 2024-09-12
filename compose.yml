@@ -1,3 +1,7 @@
+
+# Please note that this is just a boilerplate for a typical full-stack application with a frontend, backend, and a MongoDB database.
+# Feel free to modify it as per your sample app
+
 services:
   # Frontend Service
   frontend:
