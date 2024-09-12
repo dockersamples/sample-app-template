@@ -27,6 +27,9 @@
 
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
+🚨 Important: Remove this section after cloning
+Please remove this "How to Use This Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+
 ## Sample README Content:
 
 ## Project Title
@@ -59,6 +62,13 @@ Notice: This sample repo is intended to support the guide mentioned above. As su
 cd sample-repo
 ```
 
+## Configuration
+This project requires the following environment variables:
+- `DATABASE_URL` - The URL of the database.
+- `API_KEY` - API key for third-party services.
+
+Create a `.env` file in the root directory to define these variables.
+
 ### 3. Install dependencies for the app, frontend, and backend:
 
 ```
@@ -72,7 +82,6 @@ cd ../backend && npm install
 ```
 npm start
 ```
-
 
 
 ## Backlinks
