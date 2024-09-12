@@ -10,6 +10,11 @@
 
 This document outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides, blog posts, or other educational content. If you have any questions, please contact #docs on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
 
+>  [!TIP]
+>
+> Please remove this "How to Use This Docker Guides Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+
+
 
 1. Select **Use this template** and choose **Create a new repository**.
 
@@ -28,9 +33,6 @@ This document outlines the requirements for code repositories in the `dockersamp
 
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
-🚨 Important: Remove this section after cloning
-
-Please remove this "How to Use This Docker Guides Template" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
 
 ## Sample README Content:
 
