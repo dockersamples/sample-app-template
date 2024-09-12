@@ -34,6 +34,8 @@ Please remove this "How to Use This Docker Guides Template" section from the REA
 
 ## Sample README Content:
 
+The README.md describes the purpose of the repository, setup instructions, and related resources. 
+
 ## Project Title
 
 This repo contains the sample application for developing applications and the Docker guide on Docker Docs. While this project is written primarily in Node/Rust/Java, the focus is on launching and using tool in development and the tool-related pieces can easily be adapted into any other language.
