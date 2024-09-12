@@ -1,3 +1,7 @@
+# Please note that this is just a sample Dockerfile for a typical frontend application.
+# Feel free to modify it as per your sample app
+
+
 # Use Node.js 22 as the base image
 FROM node:22
 
