@@ -1,4 +1,4 @@
-## 🎯 A Template for Docker Guides' Samples Apps
+## 🎯 A Template for building Docker Guides' Samples Apps
 
 1. [Sample README Content](#sample-readme-content)
    - [Project Title](#project-title)
