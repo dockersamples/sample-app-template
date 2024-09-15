@@ -1,3 +1,15 @@
+## Table of Contents
+
+1. [🎯 A Template for Docker Guides' Sample Apps](#-a-template-for-docker-guides-sample-apps)
+2. [Sample README Content](#sample-readme-content)
+   - [Project Title](#project-title)
+   - [Project Structure](#project-structure)
+   - [Setup Instructions](#setup-instructions)
+   - [Configuration](#configuration)  
+3. [Backlinks](#backlinks)
+4. [Maintenance Schedule](#maintenance-schedule)
+5. [License](#license)
+6. [Contributing](#contributing)
 
 
 
