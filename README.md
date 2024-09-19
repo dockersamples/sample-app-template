@@ -14,12 +14,13 @@
 
 
 This page outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides(and NOT blogs) at this point. 
-If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community)
+If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community).
 
->  [!TIP]
->
-> Please remove this "Samples Repo Templates for Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+## PLEASE REMOVE THIS SECTION ONCE YOU CLONE THIS REPO
 
+This section provides instructions for using the template. Please remove this "Samples Repo Templates for Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
+
+### For New Repository
 
 
 1. Select **Use this template** and choose **Create a new repository**.
@@ -38,6 +39,12 @@ If you have any questions, please contact `#docs` on the [Docker Community Slack
 
 
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
+
+### For Existing Repository
+
+1. Copy the [workflow file](.github/workflows/existing-repo.yaml) from our template repository
+2. Add it to your repository under `.github/workflows/`
+3. Trigger the functionality manually via the Actions tab to update the README.md
 
 
 ## Sample README Content
