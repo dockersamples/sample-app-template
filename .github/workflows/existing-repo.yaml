@@ -47,7 +47,7 @@ jobs:
     - name: Commit and push changes
       run: |
         git add README.md CONTRIBUTING.md LICENSE
-        git commit -m "Update README.md and ensure CONTRIBUTING.md and LICENSE.md are present" || echo "No changes to commit"
+        git commit -m "Update README.md and ensure CONTRIBUTING.md and LICENSE are present" || echo "No changes to commit"
         git push origin ${{ github.event.inputs.target_branch }}
 
     - name: Clean up
