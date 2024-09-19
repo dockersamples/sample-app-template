@@ -1,4 +1,4 @@
-name: Update README from Template
+name: Update README from Template and Ensure CONTRIBUTING.md & LICENSE.md
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         default: 'main'
 
 jobs:
-  update-readme:
+  update-files:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,28 @@ jobs:
     - name: Clone template repository
       run: |
         git clone https://github.com/dockersamples/sample-app-template.git template-repo
-        cp template-repo/README.md .
+
+    - name: Ensure README.md, CONTRIBUTING.md, and LICENSE.md
+      run: |
+        # Update README.md
+        cp template-repo/README.md README.md
+
+        # Check if CONTRIBUTING.md exists, if not copy from template
+        if [ ! -f CONTRIBUTING.md ]; then
+          echo "CONTRIBUTING.md not found, adding it."
+          cp template-repo/CONTRIBUTING.md CONTRIBUTING.md
+        fi
+
+        # Check if LICENSE.md exists, if not copy from template
+        if [ ! -f LICENSE.md ]; then
+          echo "LICENSE.md not found, adding it."
+          cp template-repo/LICENSE.md LICENSE.md
+        fi
 
     - name: Commit and push changes
       run: |
-        git add README.md
-        git commit -m "Update README.md from template repository" || echo "No changes to commit"
+        git add README.md CONTRIBUTING.md LICENSE.md
+        git commit -m "Update README.md and ensure CONTRIBUTING.md and LICENSE.md are present" || echo "No changes to commit"
         git push origin ${{ github.event.inputs.target_branch }}
 
     - name: Clean up
