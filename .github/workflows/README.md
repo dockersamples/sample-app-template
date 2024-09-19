@@ -1,6 +1,6 @@
 ## Using the GitHub Action Workflow
 
-This repository includes an example GitHub Action workflow file (`.github/workflows/update-readme.yml`) that helps update the `README.md` from a template repository to an existing repository.
+This repository includes an example GitHub Action workflow file that helps update the `README.md` from a template repository to an existing repository.
 
 ### How to Run the Workflow
 
