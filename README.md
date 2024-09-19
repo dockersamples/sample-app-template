@@ -44,7 +44,8 @@ This section provides instructions for using the template. Please remove this "S
 
 1. Copy the [workflow file](.github/workflows/existing-repo.yaml) from our template repository
 2. Add it to your repository under `.github/workflows/`
-3. Trigger the functionality manually via the Actions tab to update the README.md
+3. Trigger the functionality manually via the Actions tab to update the repo
+4. Ensure that you select the right branch (main or master) based on the repo while triggering the workflow run.
 
 
 ## Sample README Content
