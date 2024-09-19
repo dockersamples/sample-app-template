@@ -8,4 +8,5 @@ This repository includes an example GitHub Action workflow file that helps updat
 2. Select the "Update README from Template" workflow.
 3. Click the "Run workflow" button to trigger the action manually.
 
-The workflow will **not run automatically**. You must manually trigger it if you want to use it.
+Note: The workflow will **not run automatically**. You must manually trigger it if you want to use it.
+It won't delete your existing repository files but just update README for you.
