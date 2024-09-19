@@ -27,7 +27,7 @@ jobs:
       run: |
         git clone https://github.com/dockersamples/sample-app-template.git template-repo
 
-    - name: Ensure README.md, CONTRIBUTING.md, and LICENSE.md
+    - name: Ensure README.md, CONTRIBUTING.md, and LICENSE
       run: |
         # Update README.md
         cp template-repo/README.md README.md
@@ -38,15 +38,15 @@ jobs:
           cp template-repo/CONTRIBUTING.md CONTRIBUTING.md
         fi
 
-        # Check if LICENSE.md exists, if not copy from template
-        if [ ! -f LICENSE.md ]; then
+        # Check if LICENSE file exists, if not copy from template
+        if [ ! -f LICENSE ]; then
           echo "LICENSE.md not found, adding it."
-          cp template-repo/LICENSE.md LICENSE.md
+          cp template-repo/LICENSE LICENSE
         fi
 
     - name: Commit and push changes
       run: |
-        git add README.md CONTRIBUTING.md LICENSE.md
+        git add README.md CONTRIBUTING.md LICENSE
         git commit -m "Update README.md and ensure CONTRIBUTING.md and LICENSE.md are present" || echo "No changes to commit"
         git push origin ${{ github.event.inputs.target_branch }}
 
