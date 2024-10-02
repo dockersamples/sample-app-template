@@ -11,16 +11,15 @@
 5. [Contributing](#contributing)
 
 
+This page outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides and blogs at this point.
 
-
-This page outlines the requirements for code repositories in the `dockersamples` organization. These repositories are meant to support Docker guides(and NOT blogs) at this point. 
 If you have any questions, please contact `#docs` on the [Docker Community Slack](https://communityinviter.com/apps/dockercommunity/docker-community).
 
 ### PLEASE REMOVE THIS SECTION ONCE YOU CLONE THIS REPO
 
 This section provides instructions for using the template. Please remove this "Samples Repo Templates for Docker Guides" section from the README file after cloning the repository to ensure your guide is clean and tailored to your specific application.
 
-### For New Repository
+### For a new repository
 
 
 1. Select **Use this template** and choose **Create a new repository**.
@@ -36,16 +35,11 @@ This section provides instructions for using the template. Please remove this "S
 
 ---
 
-
-
 3. Select **Create repository**. Don't forget to populate **About** section with a short description of the project once you create the repository.
 
-### For Existing Repository
+### For an existing repository
 
-1. Copy the [workflow file](.github/workflows/existing-repo.yaml) from our template repository
-2. Add it to your repository under `.github/workflows/`
-3. Trigger the functionality manually via the Actions tab to update the repo
-4. Ensure that you select the right branch (main or master) based on the repo while triggering the workflow run.
+If you already have an existing repository, copy the appropriate files from this repo into your own. The key files are `CONTRIBUTING.md`, `LICENSE`, and `README.md`
 
 
 ## Sample README Content
@@ -67,10 +61,12 @@ Notice: This sample repo is intended to support the guide mentioned above. As su
 - **database/** - Contains database configuration and scripts.
 
 ## Setup Instructions
+
 [Provide clear setup instructions here]
 
 
 ### 1. Clone the repository
+
  ```bash
    git clone https://github.com/your-org/sample-repo.git
  ```
@@ -116,8 +112,3 @@ This project is licensed under the [Apache 2.0 License](/LICENSE).
 ## Contributing
 
 Since this project is intended to support a specific use case guide, contributions are limited to bug fixes or security issues. If you have a question, feel free to open an issue!
-
-
-
-
-

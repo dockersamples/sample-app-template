@@ -1,46 +1,10 @@
 
-# Please note that this is just a boilerplate for a typical full-stack application with a frontend, backend, and a MongoDB database.
-# Feel free to modify it as per your sample app
+# This is a placeholder Compose file. 
+# Modify it as per your sample app.
 
 services:
-  # Frontend Service
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: frontend
+  app:
+    build: ./
     ports:
-      - "3000:3000" # Exposing port 3000 for React
-    environment:
-      - REACT_APP_API_URL=http://localhost:5000 # Pointing to backend
-    depends_on:
-      - backend
+      - "80:80"
 
-  # Backend Service
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: backend
-    ports:
-      - "5000:5000" # Exposing port 5000 for Node.js/Express
-    environment:
-      - MONGODB_URI=mongodb://mongo:27017/todos
-    depends_on:
-      - mongo
-
-  # MongoDB Database Service
-  mongo:
-    image: mongo:4.4
-    container_name: mongo
-    ports:
-      - "27017:27017" # Exposing MongoDB port
-    volumes:
-      - mongo-data:/data/db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
-
-# Volumes to persist MongoDB data
-volumes:
-  mongo-data:
